@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang=”en”>
+    <head>
+        <title>Meeting Minutes: Hiking Club</title>
+        <meta name="author" content="Natalie Kwong">
+        <link rel="icon" href="favicon-16x16.png"  sizes="16x16" type="image/png">
+    </head>
+    <body>
+        <div>
+            <header>Meeting Minutes: Hiking Club</header>
+            <h1>Brainstorming Session #1</h1>
+            <h2>Date: 10/1/2021</h2>
+        </div>
+        <main>
+            <hr>
+            <nav class="menu">
+                <h3>Menu</h3>
+                <ul>
+                  <li><a href="#attendance">Attendance List</a></li>
+                  <li><a href="#topic">Today's Topic</a></li>
+                  <li><a href="#agenda">Agenda</a></li>
+                  <li><a href="#unfinished">Unfinished Business</a></li>
+                  <li><a href="#new">New Business</a></li>
+                  <li><a href="#other">Other Comments</a></li>
+                  <li><a href="#brainstorming">Brainstorming</a></li>
+                  <li><a href="#final">Final Thoughts</a></li>
+                </ul>
+              </nav>
+            <a id="attendance"><h3>Attendance List</h3></a>
+            <section>
+                <body>
+                    <span>
+                        <ul>
+                            <li>President</li>
+                            <li>Vice President</li>
+                            <li>Treasurer</li>
+                            <li>Head of Marketing</li>
+                        </ul>
+                    </span>
+                </body>
+            </section>
+            </a>
+            <h2>Summary</h2>
+            <a id="topic"><h3>Today's Topic</h3></a>
+            <p>
+                Today we are meeting to <strong>discuss and brainstorm</strong> 
+                a very important topic: what our big <b>overnight camping trip</b> should be!
+            </p>
+            <figure>
+                <figcaption>Imagine falling asleep to the sound of nature:</figcaption>
+                <audio
+                    controls
+                    src="crickets.m4a">
+                        Your browser does not support the
+                        <code>audio</code> element.
+                </audio>
+            </figure>
+            <a id="agenda"><h3>Agenda</h3></a>
+            <ol>
+                <li>Introduce new Vice President</li>
+                <li>Review available funds</li>
+                <li>Propose ideas</li>
+                <li>Open up the floor for other ideas</li>
+            </ol>
+            <a id="unfinished"><h3>Unfinished Business</h3></a>
+            <ul>
+                <li>Plan the next fundraiser</li>
+                    <ul>
+                        <li><em>This is of utmost importance!</em></li>
+                    </ul>
+                <li>Choose design for shirts</li>
+                <li>Plan next social</li>
+            </ul>
+            <a id="new"><h3>New Business</h3></a>
+            <ul>
+                <li>Start talking about camping trip</li>
+            </ul>
+            <a id="other"><h3>Other Comments</h3></a>
+            <ul>
+                <li>The marketing team needs to be more active on social media</li>
+                <li>The fundraiser should be accomplished before talk of a camping trip so we have a better idea on the budget</li>
+                <li>We should see if we can reach a sponsorship with <a href="https://www.alltrails.com/">AllTrails</a></li>
+            </ul>
+
+            <a id="brainstorming"><h3>Brainstorming Ideas</h3></a>
+            <ul>
+                <li>
+                    <img class="fit-picture"
+                    src="yosemite.jpeg"
+                    alt="Yosemite valley with trees and waterfall"
+                    width=500>
+                </li>
+                    <ul>
+                        <li>Yosemite</li>
+                    </ul>
+                <li>
+                    <img class="fit-picture"
+                    src="bigbear.jpeg"
+                    alt="Big Bear Lake and surrounding trees"
+                    width=500>
+                </li>
+                    <ul>
+                        <li>Big Bear</li>
+                    </ul>
+                <li>
+                    <img class="fit-picture"
+                    src="grandcanyon.jpeg"
+                    alt="Grand Canyon at sunset with river"
+                    width=500>
+                </li>
+                    <ul>
+                        <li>Grand Canyon</li>
+                    </ul>
+            </ul>
+
+            <p>Help us know where you want to do for the trip!</p>
+            <form>
+                <fieldset>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required
+       minlength="4" maxlength="8" size="10">
+                </fieldset>
+
+                <fieldset>
+                    <legend>When would you want to go?</legend>
+                    <input type="date" id="start" name="trip-start"
+       value="2021-10-02"
+       min="2021-10-02" max="2021-06-15">
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>What activities would you want to do?</legend>
+                
+                    <input type="checkbox" id="hike" name="hike">
+                    <label for="hike">Hike</label><br/>
+                
+                    <input type="checkbox" id="fish" name="fish">
+                    <label for="fish">Fish</label><br/>
+                
+                    <input type="checkbox" id="campfire" name="campfire">
+                    <label for="campfire">Campfire</label><br/>
+
+                    <input type="checkbox" id="swim" name="swim">
+                    <label for="swim">Swim</label><br/>
+                  </fieldset>
+                </form>
+
+                
+                <fieldset>
+                  <legend>Where would you like to hike?</legend>
+              
+                  <input type="radio" id="forest" name="place">
+                  <label for="id">Forest</label><br/>
+              
+                  <input type="radio" id="beach" name="place">
+                  <label for="beach">Beach</label><br/>
+              
+                  <input type="radio" id="desert" name="place">
+                  <label for="desert">Desert</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>How many days should the trip be?</legend>
+                    <input list="days" id="trip" name="trip" />
+
+                    <datalist id="days">
+                        <option value="2 days">
+                        <option value="3 days">
+                        <option value="4 days">
+                        <option value="I don't want to go">
+                    </datalist>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Where should we stay?</legend>
+                    <select name="stays" id="stays-select">
+                        <option value="">--Please choose an option--</option>
+                            <option value="Tent">Tent</option>
+                            <option value="Airbnb">Airbnb</option>
+                            <option value="Hotel">Hotel</option>
+                            <option value="Motel">Motel</option>
+                            <option value="RV">RV</option>
+                            <option value="None">I don't want to go</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Any other comments?</legend>
+                    <textarea id="story" name="story" rows="5" cols="33">
+                    </textarea>
+                </fieldset>
+
+                <button class="favorite styled" type="button"> Submit</button>
+              </form>
+
+
+            <details>
+                <summary>Thanks Melanie for sharing this vieo of a cow we saw on our last hike!</summary>
+                <video controls width="250">
+
+                    <source src="cow.MP4"
+                            type="video/mp4">
+                    Sorry, your browser doesn't support embedded videos.
+                </video>
+            </details>
+            
+            <a id="final"><h3>Final Thoughts</h3></a>
+            <p>Remember our organization's motto: <i>Viva la vida!</i><br>
+            Also remember to send in your dues to:<br>
+            4548 Sunset Point Blvd<br>
+            San Diego, CA<br>
+            92092<br>
+            </p>
+
+    
+
+        </main>
+        <footer>Site Created by Natalie Kwong</footer>
+    </body>
+</html>
