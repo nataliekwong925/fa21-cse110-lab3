@@ -10,16 +10,18 @@
         h3 {color:hsla(20, 80%, 40%, .8)};
     </style>
     <body>
-        <div>
-            <header style="color:blue;"> Meeting Minutes: Hiking Club</header>
-            <h1 style="color:rgb(69, 181, 233);">Brainstorming Session #1</h1>
-            <h2 style="color: rgb(101, 31, 167);">Date: 10/1/2021</h2>
+        <div class = "wrapper">
+            <div class ="box px">
+                <header style="color:blue;"> Meeting Minutes: Hiking Club</header>
+                <h1 style="color:rgb(69, 181, 233);">Brainstorming Session #1</h1>
+                <h2 style="color: rgb(101, 31, 167);">Date: 10/1/2021</h2>
+            </div>
         </div>
         <main>
             <hr>
             <nav class="menu">
                 <h3>Menu</h3>
-                <ul>
+                <ul class="ems">
                   <li><a href="#attendance">Attendance List</a></li>
                   <li><a href="#topic">Today's Topic</a></li>
                   <li><a href="#agenda">Agenda</a></li>
@@ -75,7 +77,7 @@
             <ul>
                 <li>The marketing team needs to be more <span>active</span> on social media</li>
                 <li>The <span>fundraiser</span> should be accomplished before talk of a camping trip so we have a better idea on the budget</li>
-                <li>We should see if we can reach a <span>sponsorship</span>> with <a href="https://www.alltrails.com/">AllTrails</a></li>
+                <li>We should see if we can reach a <span>sponsorship</span> with <a href="https://www.alltrails.com/">AllTrails</a></li>
             </ul>
 
             <a id="brainstorming"><h3>Brainstorming Ideas</h3></a>
@@ -106,6 +108,7 @@
             
 
             <p>Help us know where you want to do for the trip!</p>
+            <div class="box vw">
             <form>
                 <fieldset>
                     <label for="name">Name:</label>
@@ -183,6 +186,7 @@
 
                 <button class="favorite styled" type="button"> Submit</button>
             </form>
+        </div>
 
 
             <details>
@@ -197,7 +201,9 @@
             
             
             <a id="final"><h3>Final Thoughts</h3></a>
-            <p>Remember our organization's motto: <i>Viva la vida!</i><br>
+            <div class="mm">
+                <p>Remember our organization's motto: <i>Viva la vida!</i><br>
+            </div>
             Also remember to send in your dues to:<br>
             4548 Sunset Point Blvd<br>
             San Diego, CA<br>

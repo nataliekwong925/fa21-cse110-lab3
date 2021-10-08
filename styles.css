@@ -1,4 +1,28 @@
-h1 { /* Change background color of title of the page */
+html{
+    font-size: .5cm;
+}
+ems li{
+    font-size: 1.2em;
+}
+
+h1 { /* Change background color of title of the page to dark blue*/
     background-color: rgb(15, 47, 105);
     color: black;
+}
+
+.wrapper {
+    font-size: 4vh;
+}
+
+.px {
+    width: 500px;
+}
+
+.mm {
+    font-size: 10mm;
+}
+
+
+.vw {
+    width: 50vw;
 }
