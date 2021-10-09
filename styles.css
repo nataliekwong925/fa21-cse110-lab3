@@ -86,7 +86,7 @@ h3 {  /* Format h3 */
 
 .text-emphasis{ /* Formatting for club motto */
     color: rgba(12, 90, 32, 0.548);
-    text-decoration: dashed underline overline;
+    text-decoration: dashed underline;
     text-align: center;
     display: block;
 }
@@ -118,7 +118,7 @@ li:active { /* Change color of list points when clicked*/
     font-size: 20px;
   }
 
-  .grid-container{ /* Grid container for menu */
+  .grid-container{ /* Grid container for menu children*/
       display: grid;
       grid: 'spot spot spot spot';
       column-gap: 10px;
@@ -126,7 +126,7 @@ li:active { /* Change color of list points when clicked*/
       justify-items: stretch;
   }
 
-  .grid-container > div { /* Formatting for grid container*/
+  .grid-container > div { /* Formatting for grid container children*/
     background-color: #8ab2e7;
     margin: 8px;
     padding: 15px;
@@ -156,3 +156,25 @@ li:active { /* Change color of list points when clicked*/
     [target="_top"] { /* Highlight target attributes with "_top"  */
         background-color: rgb(187, 216, 233);
     }
+
+    div p { /* Increase font size of imoportant messages*/
+        font-size: 1.7em;
+    }
+
+    input ~ label { /*Change color of options in fieldset */
+        color:rgb(94, 94, 219);
+    }
+
+    img + ul { /* Increase font size of names of locations following pictures */
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+
+    img.fit-picture { /* Center images in the middle*/
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
