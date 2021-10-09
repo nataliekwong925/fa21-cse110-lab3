@@ -62,4 +62,9 @@ h1 { /* Change background color of title of the page to dark blue*/
     color: rgba(12, 90, 32, 0.548);
     text-decoration: dashed underline overline;
     text-align: center;
+    display: block;
+}
+
+.hide{
+    display: none;
 }
