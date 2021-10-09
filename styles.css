@@ -1,4 +1,4 @@
-html{
+html{ /* Set font size */
     font-size: .5cm;
 }
 
@@ -6,15 +6,13 @@ html{
     font-family: 'Rubik', sans-serif;
 }
 
-
-
 h1 { /* Change background color of title of the page to dark blue*/
     background-color: rgb(15, 47, 105);
     color: black;
     position: fixed;
     font-family: 'Lobster', cursive;}
 
-h2 {
+h2 { /* Spacing for h2 */
     margin-top: 170px;
     margin-right: 30px;
     margin-bottom: 40px;
@@ -22,11 +20,11 @@ h2 {
 
 
 
-h1:hover {
+h1:hover { /* Background changes when tityle is hovered over */
     background-color: rgb(212, 189, 126);
 }
 
-h3 { 
+h3 {  /* Format h3 */
     height: 20px;
     width: 300px;
     max-width: 500px;
@@ -36,24 +34,24 @@ h3 {
 
 }
 
-.wrapper {
+.wrapper { /* Change font size for wrapper*/
     font-size: 4vh;
 }
 
-.px {
+.px { /* Change width for px*/
     width: 500px; 
 }
 
-.mm {
+.mm { /* Change font size for mm */
     font-size: 10mm;
 }
 
 
-.vw {
+.vw { /* Change width for vw */
     width: 50vw;
 }
 
-.menu-box{
+.menu-box{ /* Spacing for Menu */
     border-width: 2px;
     border-style: solid;
     border-color: rgb(12, 94, 49);
@@ -73,7 +71,7 @@ h3 {
 
 }
 
-.attendance-box{
+.attendance-box{ /* Spacing for attendance*/
     border: 2px solid rgb(187, 175, 13);
 
     margin: 40px 250px 40px 2em;
@@ -82,26 +80,26 @@ h3 {
 
 }
 
-.topic-box{
+.topic-box{ /* Set auto margin for topic */
     margin:auto
 }
 
-.text-emphasis{
+.text-emphasis{ /* Formatting for club motto */
     color: rgba(12, 90, 32, 0.548);
     text-decoration: dashed underline overline;
     text-align: center;
     display: block;
 }
 
-.hide{
+.hide{ /* Hide text we don't want visisble */
     display: none;
 }
 
-li:active {
+li:active { /* Change color of linked text when clicked*/
     color:rgb(151, 33, 78)
 }
 
-.flex-container{
+.flex-container{ /* Flex container for attendance list */
     display: flex;
     background-color:rgb(157, 157, 226);
     flex-wrap: wrap; 
@@ -111,14 +109,14 @@ li:active {
     align-items: baseline;
 }
 
-.flex-container > div {
+.flex-container > div { /* Formatting for flex container */
     background-color: #f1f1f1;
     margin: 8px;
     padding: 15px;
     font-size: 20px;
   }
 
-  .grid-container{
+  .grid-container{ /* Grid container for menu */
       display: grid;
       grid: 'spot spot spot spot';
       column-gap: 10px;
@@ -126,7 +124,7 @@ li:active {
       justify-items: stretch;
   }
 
-  .grid-container > div {
+  .grid-container > div { /* Formatting for grid container*/
     background-color: #8ab2e7;
     margin: 8px;
     padding: 15px;
@@ -135,22 +133,20 @@ li:active {
 
   }
   
-  @media (min-width:70rem){
+  @media (min-width:70rem){ /* Change color of title border based on width */
       h1{
           border: 10px solid rgb(241, 226, 137);
       }
   }
 
-  @media (max-width: 70rem){
+  @media (max-width: 70rem){ /* Change color of title border based on width */
     h1{
         border: 10px solid rgb(179, 28, 146);
     }
 }
 
+    /*Underline names of the different sections of the sheet*/
     #attendance, #topic, #agenda, #unfinished, #new, #other, #brainstorming, #final {
         text-decoration-line: underline;
         text-decoration-color: hsla(20, 80%, 40%, .8);
-    }   
-
-
-
+    }  
