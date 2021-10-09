@@ -129,5 +129,20 @@ li:active {
     text-align: center;
 
   }
+  
+  @media (min-width:70rem){
+      h1{
+          border: 10px solid rgb(241, 226, 137);
+      }
+  }
+
+  @media (max-width: 70rem){
+    h1{
+        border: 10px solid rgb(179, 28, 146);
+    }
+}
+
+
+
 
 
