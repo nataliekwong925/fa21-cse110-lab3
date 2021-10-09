@@ -8,6 +8,7 @@ ems li{
 h1 { /* Change background color of title of the page to dark blue*/
     background-color: rgb(15, 47, 105);
     color: black;
+    position: fixed;
 }
 
 h3 { 
@@ -15,6 +16,7 @@ h3 {
     width: 200px;
     max-width: 500px;
     min-width: 80px;
+
 }
 
 .wrapper {
@@ -49,6 +51,8 @@ h3 {
     padding-right: 30px;
     padding-bottom: 40px;
     padding-left: 4em;
+
+    position: static;
 
 }
 
