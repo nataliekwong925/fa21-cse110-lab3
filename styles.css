@@ -142,7 +142,10 @@ li:active {
     }
 }
 
-
+    #attendance, #topic, #agenda, #unfinished, #new, #other, #brainstorming, #final {
+        text-decoration-line: underline;
+        text-decoration-color: hsla(20, 80%, 40%, .8);
+    }   
 
 
 
