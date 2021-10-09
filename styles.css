@@ -2,6 +2,11 @@ html{
     font-size: .5cm;
 }
 
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+
 
 h1 { /* Change background color of title of the page to dark blue*/
     background-color: rgb(15, 47, 105);
@@ -10,7 +15,7 @@ h1 { /* Change background color of title of the page to dark blue*/
     font-family: 'Lobster', cursive;}
 
 h2 {
-    margin-top: 150px;
+    margin-top: 170px;
     margin-right: 30px;
     margin-bottom: 40px;
 }
