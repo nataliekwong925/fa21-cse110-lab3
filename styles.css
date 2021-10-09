@@ -149,4 +149,8 @@ li:active { /* Change color of linked text when clicked*/
     #attendance, #topic, #agenda, #unfinished, #new, #other, #brainstorming, #final {
         text-decoration-line: underline;
         text-decoration-color: hsla(20, 80%, 40%, .8);
-    }  
+    } 
+    
+    [target="_top"] {
+        background-color: rgb(187, 216, 233);
+    }
