@@ -1,9 +1,7 @@
 html{
     font-size: .5cm;
 }
-ems li{
-    font-size: 1.2em;
-}
+
 
 h1 { /* Change background color of title of the page to dark blue*/
     background-color: rgb(15, 47, 105);
@@ -25,9 +23,11 @@ h1:hover {
 
 h3 { 
     height: 20px;
-    width: 200px;
+    width: 300px;
     max-width: 500px;
     min-width: 80px;
+    font-size: 1.5em;
+
 
 }
 
@@ -71,7 +71,7 @@ h3 {
 .attendance-box{
     border: 2px solid rgb(187, 175, 13);
 
-    margin: 40px 30px 40px 2em;
+    margin: 40px 250px 40px 2em;
 
     padding: 30px 20px 30px 20px;
 
@@ -95,5 +95,39 @@ h3 {
 li:active {
     color:rgb(151, 33, 78)
 }
+
+.flex-container{
+    display: flex;
+    background-color:rgb(157, 157, 226);
+    flex-wrap: wrap; 
+    flex-shrink: 4;
+    justify-content: space-evenly;
+    align-content: space-around;
+    align-items: baseline;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 8px;
+    padding: 15px;
+    font-size: 20px;
+  }
+
+  .grid-container{
+      display: grid;
+      grid: 'spot spot spot spot';
+      column-gap: 10px;
+      row-gap: 20px; 
+      justify-items: stretch;
+  }
+
+  .grid-container > div {
+    background-color: #8ab2e7;
+    margin: 8px;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+
+  }
 
 
